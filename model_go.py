@@ -49,7 +49,7 @@ def model_train(train, test, valid, model_type):
         'seed': 1,
         'bagging_seed': 3,
         'feature_fraction_seed': 2,
-	'is_unbalance': True
+        'is_unbalance': True
     }
 
     prob_ = np.zeros((valid.shape[0], 5))
